@@ -15,6 +15,8 @@
 		79349C741E7A60A100EAE868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79349C721E7A60A100EAE868 /* LaunchScreen.storyboard */; };
 		79349C7F1E7A60A200EAE868 /* CellSrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79349C7E1E7A60A200EAE868 /* CellSrollViewTests.m */; };
 		79349C8A1E7A60A200EAE868 /* CellSrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79349C891E7A60A200EAE868 /* CellSrollViewUITests.m */; };
+		79349C9A1E7A610400EAE868 /* JDragonTypeButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79349C991E7A610400EAE868 /* JDragonTypeButtonView.m */; };
+		79349C9D1E7A610B00EAE868 /* RKChatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79349C9C1E7A610B00EAE868 /* RKChatsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		79349C851E7A60A200EAE868 /* CellSrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellSrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79349C891E7A60A200EAE868 /* CellSrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellSrollViewUITests.m; sourceTree = "<group>"; };
 		79349C8B1E7A60A200EAE868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79349C981E7A610400EAE868 /* JDragonTypeButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDragonTypeButtonView.h; sourceTree = "<group>"; };
+		79349C991E7A610400EAE868 /* JDragonTypeButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDragonTypeButtonView.m; sourceTree = "<group>"; };
+		79349C9B1E7A610B00EAE868 /* RKChatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKChatsViewController.h; sourceTree = "<group>"; };
+		79349C9C1E7A610B00EAE868 /* RKChatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKChatsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,7 @@
 				79349C681E7A60A100EAE868 /* AppDelegate.m */,
 				79349C6A1E7A60A100EAE868 /* ViewController.h */,
 				79349C6B1E7A60A100EAE868 /* ViewController.m */,
+				79349C971E7A610400EAE868 /* Segment */,
 				79349C6D1E7A60A100EAE868 /* Main.storyboard */,
 				79349C701E7A60A100EAE868 /* Assets.xcassets */,
 				79349C721E7A60A100EAE868 /* LaunchScreen.storyboard */,
@@ -138,6 +145,17 @@
 				79349C8B1E7A60A200EAE868 /* Info.plist */,
 			);
 			path = CellSrollViewUITests;
+			sourceTree = "<group>";
+		};
+		79349C971E7A610400EAE868 /* Segment */ = {
+			isa = PBXGroup;
+			children = (
+				79349C9B1E7A610B00EAE868 /* RKChatsViewController.h */,
+				79349C9C1E7A610B00EAE868 /* RKChatsViewController.m */,
+				79349C981E7A610400EAE868 /* JDragonTypeButtonView.h */,
+				79349C991E7A610400EAE868 /* JDragonTypeButtonView.m */,
+			);
+			path = Segment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +291,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79349C9A1E7A610400EAE868 /* JDragonTypeButtonView.m in Sources */,
+				79349C9D1E7A610B00EAE868 /* RKChatsViewController.m in Sources */,
 				79349C6C1E7A60A100EAE868 /* ViewController.m in Sources */,
 				79349C691E7A60A100EAE868 /* AppDelegate.m in Sources */,
 				79349C661E7A60A100EAE868 /* main.m in Sources */,
